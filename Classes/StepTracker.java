@@ -1,3 +1,5 @@
+package Classes;
+
 public class StepTracker {
     private int activeDayThreshold, totalSteps, activeCt, totalDays;
 
