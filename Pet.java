@@ -1,5 +1,3 @@
-package Unit2Review;
-
 public abstract class Pet {
     private String myName;
 

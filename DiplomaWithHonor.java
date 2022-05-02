@@ -1,5 +1,3 @@
-package Unit2Review;
-
 public class DiplomaWithHonor extends Diploma {
     public DiplomaWithHonor(String name, String course) {
         super(name, course);

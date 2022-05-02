@@ -1,5 +1,3 @@
-package Unit2Review;
-
 public class RightTriangle extends EquilateralTriangle {
     public RightTriangle(double side) {
         super(side);

@@ -1,5 +1,3 @@
-package Unit2Review;
-
 public class Diploma {
     private String name, course;
 

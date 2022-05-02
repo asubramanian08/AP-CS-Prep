@@ -1,5 +1,3 @@
-package Unit2Review;
-
 import java.util.ArrayList;
 
 public class Kennel {

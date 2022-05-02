@@ -1,5 +1,3 @@
-package Unit2Review;
-
 public class Rectangle {
     private int width, height;
 

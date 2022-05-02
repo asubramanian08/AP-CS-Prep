@@ -1,5 +1,3 @@
-package Unit2Review;
-
 public class Disk {
     private Point center;
     private double radius;

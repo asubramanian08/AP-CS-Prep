@@ -1,5 +1,3 @@
-package Unit2Review;
-
 public class Point {
     private double x, y;
 

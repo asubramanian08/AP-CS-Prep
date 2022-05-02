@@ -1,5 +1,3 @@
-package Unit2Review;
-
 public abstract class PopulationZone {
     private static final int MAX_AGE = 100;
     private String name;
