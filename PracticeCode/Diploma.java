@@ -1,3 +1,5 @@
+package PracticeCode;
+
 public class Diploma {
     private String name, course;
 

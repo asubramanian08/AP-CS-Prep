@@ -1,3 +1,5 @@
+package PracticeCode;
+
 import java.util.ArrayList;
 
 public class Demographics {

@@ -1,3 +1,5 @@
+package PracticeCode;
+
 public class StepTracker {
     private int activeDayThreshold, totalSteps, activeCt, totalDays;
 

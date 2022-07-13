@@ -1,3 +1,5 @@
+package PracticeCode;
+
 public class RightTriangle extends EquilateralTriangle {
     public RightTriangle(double side) {
         super(side);

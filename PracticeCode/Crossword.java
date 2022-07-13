@@ -1,3 +1,5 @@
+package PracticeCode;
+
 public class Crossword {
     private Square[][] puzzle;
 

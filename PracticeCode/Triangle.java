@@ -1,3 +1,5 @@
+package PracticeCode;
+
 public abstract class Triangle {
     protected double side;
 

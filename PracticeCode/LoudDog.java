@@ -1,3 +1,5 @@
+package PracticeCode;
+
 public class LoudDog extends Dog {
     public LoudDog(String name) {
         super(name);

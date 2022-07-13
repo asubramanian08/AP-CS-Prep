@@ -1,3 +1,5 @@
+package PracticeCode;
+
 public class Rectangle {
     private int width, height;
 

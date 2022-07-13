@@ -1,3 +1,5 @@
+package PracticeCode;
+
 public class DiplomaWithHonor extends Diploma {
     public DiplomaWithHonor(String name, String course) {
         super(name, course);
