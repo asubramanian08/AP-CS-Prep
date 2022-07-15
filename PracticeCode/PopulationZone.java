@@ -1,25 +1,25 @@
 package PracticeCode;
 
 public abstract class PopulationZone {
-    private static final int MAX_AGE = 100;
-    private String name;
-    private int population;
-    private double growthRate;
-    private int[] populationByAge;
+    protected /* private */ static final int MAX_AGE = 100;
+    protected /* private */ String name;
+    protected /* private */ int population;
+    protected /* private */ double growthRate;
+    protected /* private */ int[] populationByAge;
 
-    public PopulationZone(String _name, int[] _populationByAge) { ... }
+    public PopulationZone(String _name, int[] _populationByAge) {}
 
-    public PopulationZone(String _name, int[] _populationByAge, double _growthRate) { ... }
+    public PopulationZone(String _name, int[] _populationByAge, double _growthRate) {}
 
-    public String getName() { ... }
+    public abstract String getName();
 
-    public double getGrowth() { ... }
+    public abstract double getGrowth();
 
-    public double setGrowth(double newGrowthRate) { ... }
+    public abstract double setGrowth(double newGrowthRate);
 
-    public int totalPopulation() { ... }
+    public abstract int totalPopulation();
 
-    public int populationBelow(int threshold) { ... }
+    public abstract int populationBelow(int threshold);
 
-    public void yearPass() { ... }
+    public abstract void yearPass();
 }
