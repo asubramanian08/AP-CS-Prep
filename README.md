@@ -8,4 +8,4 @@ On April 21st and April 25th, 2022 I took the official CSA practice FRQ in my sc
 
 The [Practice Code](https://github.com/asubramanian08/AP-CSA/tree/master/PracticeCode) folder has all the code I created to practice for the exam.
 
-All the other code is for a Yahtzee project I did for school.
+All the other code is for a Yahtzee project I did for school. Note that [Yahtzee.java](Yahtzee.java) is the "main" file for the Yahtzee project.
