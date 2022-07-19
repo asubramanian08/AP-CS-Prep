@@ -2,6 +2,7 @@
  * Representation of a {@link Yahtzee#DICE_SIDES} sided dice.
  * 
  * @see Yahtzee#DICE_SIDES
+ * @author Arjun Subramanian
  */
 public class Die {
     private int value;

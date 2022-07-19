@@ -9,6 +9,7 @@ import java.util.Scanner;
  * @see ValidityTester
  * @see ScoreSheet
  * @see Dice
+ * @author Arjun Subramanian
  */
 public class Yahtzee {
 

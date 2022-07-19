@@ -8,6 +8,7 @@
  * 
  * @see ScoreRow#isValid(Dice)
  * @see Yahtzee#SCORE_SHEET_ROWS
+ * @author Arjun Subramanian
  */
 public class ValidityTester {
     private static final int[] correctCounts = new int[] {

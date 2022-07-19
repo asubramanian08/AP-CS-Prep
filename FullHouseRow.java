@@ -6,6 +6,7 @@
  * @see Yahtzee#FULL_HOUSE_LOW_COUNT
  * @see FixedAmountRow
  * @see ScoreRow
+ * @author Arjun Subramanian
  */
 public class FullHouseRow extends FixedAmountRow {
 

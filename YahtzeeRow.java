@@ -4,6 +4,7 @@
  * 
  * @see FixedAmountRow
  * @see ScoreRow
+ * @author Arjun Subramanian
  */
 public class YahtzeeRow extends FixedAmountRow {
 

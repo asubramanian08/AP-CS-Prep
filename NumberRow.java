@@ -4,6 +4,7 @@
  * {@link #calculateScore(Dice)} function.
  * 
  * @see ScoreRow
+ * @author Arjun Subramanian
  */
 public class NumberRow extends ScoreRow {
     private int value;

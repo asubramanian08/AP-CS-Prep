@@ -4,6 +4,7 @@
  * 
  * @see SumAllRow
  * @see ScoreRow
+ * @author Arjun Subramanian
  */
 public class NumOfAKindRow extends SumAllRow {
     private int numOfAKind;

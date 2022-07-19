@@ -9,6 +9,7 @@ import java.util.Arrays;
  * @see ScoreRow
  * @see Yahtzee#SMALL_STRAIGHT_COUNT
  * @see Yahtzee#LARGE_STRAIGHT_COUNT
+ * @author Arjun Subramanian
  */
 public class StraightRow extends FixedAmountRow {
     private int numInARow;

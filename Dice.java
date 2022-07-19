@@ -4,6 +4,7 @@
  * @see Die
  * @see Yahtzee#DICE_COUNT
  * @see #roll(Boolean[])
+ * @author Arjun Subramanian
  */
 public class Dice {
     private Die[] dice;

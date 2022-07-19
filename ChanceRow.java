@@ -4,6 +4,7 @@
  * 
  * @see SumAllRow
  * @see ScoreRow
+ * @author Arjun Subramanian
  */
 public class ChanceRow extends SumAllRow {
 

@@ -12,6 +12,7 @@ import java.util.ArrayList;
  * @see FullHouseRow
  * @see StraightRow
  * @see ChanceRow
+ * @author Arjun Subramanian
  */
 public class ScoreSheet extends ArrayList<ScoreRow> {
 
