@@ -67,7 +67,7 @@ public class Dice {
     }
 
     /**
-     * Print the {@link #toString()} to {@link System.out}.
+     * Print the {@link #toString()} to System.out.
      */
     public void display() {
         System.out.println(this.toString());

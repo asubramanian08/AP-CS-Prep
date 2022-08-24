@@ -66,7 +66,7 @@ public class ScoreSheet extends ArrayList<ScoreRow> {
     }
 
     /**
-     * Print a visualized {@link ScoreSheet} to {@link System.out}.
+     * Print a visualized {@link ScoreSheet} to System.out.
      * 
      * Shows the row number followed by {@link ScoreRow#toString()}.
      * 

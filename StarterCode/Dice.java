@@ -63,15 +63,15 @@ public class Dice {
      */
     public String toString() {
         // Initialize it with the 0th dice
-        StringBuilder sb = new StringBuilder(dice[0].toString());
+        String s = dice[0].toString();
         for (int i = 1; i < numDice; i++)
             // every additional dice will lead with a space
-            sb.append(' ' + dice[i].toString());
-        return sb.toString();
+            s += " " + dice[i];
+        return s.toString();
     }
 
     /**
-     * Print the {@link #toString()} to {@link System.out}.
+     * Print the {@link #toString()} to System.out.
      */
     public void display() {
         System.out.println(this.toString());

@@ -41,8 +41,9 @@ public abstract class ScoreRow {
     /**
      * Getter for the row's {@link #score}.
      * 
+     * NOTE: The score might be {@link Yahtzee#UNSET}.
+     * 
      * @return Score of the row.
-     * @NOTE The score might be {@link Yahtzee#UNSET}.
      */
     public int getScore() {
         return score;
@@ -77,7 +78,7 @@ public abstract class ScoreRow {
     }
 
     /**
-     * Print the {@link #toString()} to {@link System.out}.
+     * Print the {@link #toString()} to System.out.
      */
     public void display() {
         System.out.println(this.toString());

@@ -24,8 +24,9 @@ public class Die {
     /**
      * Getter for the {@link Die}'s {@link #value}.
      * 
+     * NOTE: The score might be {@code 0} if unset.
+     * 
      * @return The current {@link #value}.
-     * @NOTE The score might be {@code 0} if unset.
      */
     public int getValue() {
         return value;
@@ -34,7 +35,7 @@ public class Die {
     /**
      * Setter for the {@link Die}'s {@link #value}.
      * 
-     * @param score New value for the die.
+     * @param v New value for the die.
      */
     public void setValue(int v) {
         value = v;
@@ -58,7 +59,7 @@ public class Die {
     }
 
     /**
-     * Print the {@link #toString()} to {@link System.out}.
+     * Print the {@link #toString()} to System.out.
      */
     public void display() {
         System.out.println(this.toString());

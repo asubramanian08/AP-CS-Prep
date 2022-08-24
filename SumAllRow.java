@@ -24,6 +24,11 @@ public abstract class SumAllRow extends ScoreRow {
      * @see ScoreRow#calculateScore(Dice)
      */
     public void calculateScore(Dice dice) {
+        if (!this.isValid(dice)) {
+            this.setScore(0);
+            return;
+        }
+
         // initialized the score to 0
         int score = 0;
 

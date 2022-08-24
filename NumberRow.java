@@ -28,6 +28,10 @@ public class NumberRow extends ScoreRow {
      * @see ScoreRow#calculateScore(Dice)
      */
     public void calculateScore(Dice dice) {
+        if (!this.isValid(dice)) {
+            this.setScore(0);
+            return;
+        }
         int counter = 0;
         for (int i = 0; i < Yahtzee.DICE_COUNT; i++)
             // ith dice value is the value i'm seeking

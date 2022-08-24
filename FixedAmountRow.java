@@ -32,7 +32,10 @@ public abstract class FixedAmountRow extends ScoreRow {
      * @see ScoreRow#calculateScore(Dice)
      */
     public void calculateScore(Dice dice) {
-        this.setScore(scoreValue);
+        if (!this.isValid(dice))
+            this.setScore(0);
+        else
+            this.setScore(scoreValue);
     }
 
 }
